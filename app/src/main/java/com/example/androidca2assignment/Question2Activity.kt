@@ -22,7 +22,9 @@ class Question2Activity : AppCompatActivity() {
 
         checkBox.setOnClickListener {
             if (checkBox.isChecked) {
-                Toast.makeText(this, "${checkBox.text} selected !!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "${checkBox.text} Checked !!", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, "${checkBox.text} Unchecked !!", Toast.LENGTH_LONG).show()
             }
         }
 

@@ -46,6 +46,8 @@
         android:layout_below="@id/rb_radioButton"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:elevation="10dp"
         android:text="Button"
         android:textColor="@color/red" />
 
